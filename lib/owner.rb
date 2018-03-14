@@ -10,6 +10,6 @@ class Owner
   end
   
   def self.all
-    
+    @@owners.du.freeze
   end
 end
