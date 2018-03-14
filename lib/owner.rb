@@ -28,5 +28,5 @@ class Owner
   # Instance method
   
   def say_species
-    "I am a #{@species}"
+    "I am a #{@species}."
 end
