@@ -3,11 +3,15 @@ class Owner
   attr_reader :name
   @@owners = []
   
+  # initialize
+  
   def initialize(name)
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     @@owners << self
   end
+  
+  # Class method
   
   def self.all
     @@owners
@@ -21,5 +25,6 @@ class Owner
     @@owners.clear
   end
   
+  # Intance method
   
 end
