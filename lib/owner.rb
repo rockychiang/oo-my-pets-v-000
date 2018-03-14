@@ -12,4 +12,7 @@ class Owner
   def self.all
     @@owners.dup.freeze
   end
+  
+  def self.reset_all
+    @@owners.clear
 end
