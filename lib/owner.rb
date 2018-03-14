@@ -27,8 +27,4 @@ class Owner
   
   # Intance method
   
-  def species(sp)
-    
-  end
-  
 end
