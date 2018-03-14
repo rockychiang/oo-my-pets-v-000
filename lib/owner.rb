@@ -64,4 +64,6 @@ class Owner
     self.pets.values.flatten.map{|pet| pet.mood = "nervous"}
     self.pets.clear
   end
+  
+  def list_pets
 end
