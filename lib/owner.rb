@@ -66,6 +66,6 @@ class Owner
   end
   
   def list_pets
-    self.pets.values
+    self.pets.
   end
 end
