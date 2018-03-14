@@ -25,6 +25,7 @@ class Owner
     @@owners.clear
   end
   
-  # Intance method
+  # Instance method
   
+  def 
 end
